@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Century Gothic; 
+  
+}
+
+/*---NaviBar----*/
+
+ul
+{
+    float: right;
+    list-style-type: circle;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+ul li
+{
+    display: inline-block;
+}
+
+ul li a
+{
+    text-decoration: none;
+    color: orange;
+    font font-weight: 400;
+    padding: 5px auto 20px;
+    border: 2px solid transparent;
+    transition: 1s ease;
+}
+ul li a:hover
+{
+    background-color: orange;
+    color: #fff;
+    transition: 1s;
+}
+
+ul li.active a
+{
+    background-color: orange;
+    color: #fff;
+}
+.logo img
+{
+    float: left;
+    width: 150px;  
+    height: auto;
+    
+}
+.mainpage
+{
+    max-width: 1300px;
+    margin: auto;
+}
+

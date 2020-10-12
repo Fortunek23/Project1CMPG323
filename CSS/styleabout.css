@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Century Gothic; 
+  
+}
+
+/*---NaviBar----*/
+
+ul
+{
+    float: right;
+    list-style-type: circle;
+    margin-top: 40px;
+    margin-right: 25px;
+}
+ul li
+{
+    display: inline-block;
+}
+
+ul li a
+{
+    text-decoration: none;
+    color: orange;
+    font font-weight: 400;
+    padding: 5px auto 20px;
+    border: 2px solid transparent;
+    transition: 1s ease;
+}
+ul li a:hover
+{
+    background-color: orange;
+    color: #fff;
+    transition: 1s;
+}
+
+ul li.active a
+{
+    background-color: orange;
+    color: #fff;
+}
+.logo img
+{
+    margin-bottom: 30px;
+    float: left;
+    width: 150px;  
+    height: auto;
+    
+}
+#sliders
+{
+    width: 100%;
+    
+}
+.carousel-caption
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%,-50%);
+    bottom: initial!important;
+}
+.carousel-caption h5
+{
+    color: lawngreen;
+    font-size: 42px;
+}
+
+/*----AboutMe-------*/
+
+#about
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    color: white;
+}
+#about .btn
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.about-content
+{
+    padding-top: 20px;
+}
+.skills-bar p
+{
+    margin-bottom: 6px;
+    font font-weight: 600;
+}
+.progress-bar
+{
+    border-radius: 16px
+}
+.progress
+{
+    border-radius: 16px !important;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
